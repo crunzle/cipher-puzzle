@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.13.1":{"hashes":[["/Users/chris.garland/Desktop/wd/puzzle/src/main/scala/Main.scala","944d8af167b3a9818bd18f9d522c18826bf62948"]],"lastModifiedTimes":[]}}]

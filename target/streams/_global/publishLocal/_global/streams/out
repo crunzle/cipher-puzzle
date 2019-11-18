@@ -1,0 +1,55 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: default#puzzle_2.13;0.1 :: 0.1 :: release :: Sun Nov 17 15:11:17 GMT 2019[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=release pubdate=Sun Nov 17 15:11:17 GMT 2019 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/chris.garland/Desktop/wd/puzzle/target/scala-2.13/ivy-0.1.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (9ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/poms/puzzle_2.13.pom already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/poms/puzzle_2.13.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/poms/puzzle_2.13.pom.sha1 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/poms/puzzle_2.13.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/poms/puzzle_2.13.pom.md5 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/poms/puzzle_2.13.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published puzzle_2.13 to /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/poms/puzzle_2.13.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/jars/puzzle_2.13.jar already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/jars/puzzle_2.13.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/jars/puzzle_2.13.jar.sha1 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/jars/puzzle_2.13.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/jars/puzzle_2.13.jar.md5 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/jars/puzzle_2.13.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published puzzle_2.13 to /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/jars/puzzle_2.13.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/srcs/puzzle_2.13-sources.jar already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/srcs/puzzle_2.13-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/srcs/puzzle_2.13-sources.jar.sha1 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/srcs/puzzle_2.13-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/srcs/puzzle_2.13-sources.jar.md5 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/srcs/puzzle_2.13-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published puzzle_2.13 to /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/srcs/puzzle_2.13-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/docs/puzzle_2.13-javadoc.jar already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/docs/puzzle_2.13-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/docs/puzzle_2.13-javadoc.jar.sha1 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/docs/puzzle_2.13-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/docs/puzzle_2.13-javadoc.jar.md5 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/docs/puzzle_2.13-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published puzzle_2.13 to /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/docs/puzzle_2.13-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/ivys/ivy.xml already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/ivys/ivy.xml.sha1 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/ivys/ivy.xml.md5 already exists, nothing done[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/chris.garland/.ivy2/local/default/puzzle_2.13/0.1/ivys/ivy.xml[0m

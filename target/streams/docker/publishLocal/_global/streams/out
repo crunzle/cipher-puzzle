@@ -1,0 +1,89 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t puzzle:0.1 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/chris.garland/Desktop/wd/puzzle/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  5.745MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/14 : FROM openjdk:8 as stage0[0m
+[0m[[0m[0minfo[0m] [0m[0m8: Pulling from library/openjdk[0m
+[0m[[0m[0minfo[0m] [0m[0m9a0b0ce99936: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0mdb3b6004c61a: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0mf8f075920295: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m6ef14aff1139: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m962785d3b7f9: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m631589572f9b: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0mc55a0c6f4c7b: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m962785d3b7f9: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m631589572f9b: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0mc55a0c6f4c7b: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m6ef14aff1139: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0mf8f075920295: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0mf8f075920295: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0mdb3b6004c61a: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0mdb3b6004c61a: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m962785d3b7f9: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0m962785d3b7f9: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m631589572f9b: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0m631589572f9b: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m6ef14aff1139: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0m6ef14aff1139: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m9a0b0ce99936: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0m9a0b0ce99936: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m9a0b0ce99936: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mdb3b6004c61a: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mf8f075920295: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0m6ef14aff1139: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0m962785d3b7f9: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0m631589572f9b: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mc55a0c6f4c7b: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0mc55a0c6f4c7b: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0mc55a0c6f4c7b: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mDigest: sha256:c168e211f317cc5db38b19fe62641316dbc1e60e5b53ad45ee440ba8152c20b9[0m
+[0m[[0m[0minfo[0m] [0m[0mStatus: Downloaded newer image for openjdk:8[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 57c2c2d2643d[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/14 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in ff0b56696288[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container ff0b56696288[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 1aa7449b84b6[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/14 : COPY opt /opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 340e7dd0dadf[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/14 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 6791f52a6684[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 6791f52a6684[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 7539e488725f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/14 : RUN ["chmod", "-R", "u=rX,g=rX", "/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 6bbf4a2abeaa[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 6bbf4a2abeaa[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 48a300e333d4[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/14 : RUN ["chmod", "u+x,g+x", "/opt/docker/bin/puzzle"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 735cb8621be3[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 735cb8621be3[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 267c1ca2747a[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/14 : FROM openjdk:8[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 57c2c2d2643d[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 8/14 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 61b397b6bf29[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 61b397b6bf29[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 24ef0d5b0fe1[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 9/14 : RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in ef82ada33335[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container ef82ada33335[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 03b4768f6354[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 10/14 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in e5d5e43a561d[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container e5d5e43a561d[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> d4f2ea18242c[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 11/14 : COPY --from=stage0 --chown=demiourgos728:root /opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> fc6143253809[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 12/14 : USER 1001:0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in e4802328a515[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container e4802328a515[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> da2ab70c956d[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 13/14 : ENTRYPOINT ["/opt/docker/bin/puzzle"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 4dab85ffe0c1[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 4dab85ffe0c1[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 2d04be42a1b8[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 14/14 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 02efec22af4b[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 02efec22af4b[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 9161c239522e[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 9161c239522e[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged puzzle:0.1[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image puzzle with tags [0.1][0m
